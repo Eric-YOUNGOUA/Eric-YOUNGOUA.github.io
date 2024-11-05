@@ -1,0 +1,31 @@
+body{
+    background-color: aliceblue;
+    margin: auto;
+    font-size: large;
+    line-height: 1.6;
+    max-width: 1200px;
+    padding: auto;
+}
+header{
+background-color: orange;
+color: azure;
+text-align: center;
+border-radius: 5px;
+padding: 1em;
+}
+h1{
+    margin: auto;
+}
+#NAVIGO section ul{
+list-style: none;
+display: flex;
+justify-content: center;
+}
+#NAVIGO section ul li{
+    text-decoration: underline;
+    padding: auto;
+}
+#NAVIGO section ul li:hover{
+    color: brown;
+    transform: scale(1.1);
+}
