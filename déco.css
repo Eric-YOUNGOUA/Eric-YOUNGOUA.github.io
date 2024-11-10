@@ -1,9 +1,8 @@
 body{
-    background-color: aliceblue;
+    background-color: lightblue;
     margin: auto;
     font-size: large;
-    line-height: 1.6;
-    max-width: 1200px;
+    line-height: 1.2;
     padding: auto;
 }
 header{
@@ -16,16 +15,31 @@ padding: 1em;
 h1{
     margin: auto;
 }
-#NAVIGO section ul{
+#NAVIGO nav ul{
 list-style: none;
 display: flex;
 justify-content: center;
 }
-#NAVIGO section ul li{
+#NAVIGO nav ul li{
     text-decoration: underline;
-    padding: auto;
+    padding: 10px;
 }
-#NAVIGO section ul li:hover{
+#NAVIGO nav ul li:hover{
     color: brown;
     transform: scale(1.1);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+#me{
+    display: flex;
+    justify-content: center;
+}
+.FORMATION{
+    display: flex;
+    justify-content: center;
+    display: grid;
+
 }
