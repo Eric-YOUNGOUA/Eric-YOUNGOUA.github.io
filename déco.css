@@ -13,7 +13,10 @@ border-radius: 5px;
 padding: 1em;
 }
 h1{
-    margin: auto;
+    text-transform: uppercase;/*majuscule, minuscule ou 1ere lettre majuscule*/
+    letter-spacing: 1px;/*espacement entre les lettres (et non les mots )*/
+    text-align: center;font-size: 2.5rem;/*taille du texte (pas en px)*/
+    text-shadow: -3px 4px 3px black;
 }
 #NAVIGO nav ul{
 list-style: none;
@@ -37,9 +40,39 @@ h2{
     display: flex;
     justify-content: center;
 }
-.FORMATION{
+.FORMATION section{
     display: flex;
     justify-content: center;
-    display: grid;
-
+    margin: 2%;
+}
+.FORMATION section div{
+    margin: 20px;
+}
+p{
+    margin: 16px;
+}
+img{
+    margin: 10px;
+}
+#prof div{
+    margin-left: 20%;
+    margin-right: 20%
+}
+#prof div img{
+    margin-left: 35%;
+}
+#prof div h3{
+    display: flex;
+    justify-content: center;
+}
+#prof div h4{
+    display: flex;
+    justify-content: center;
+}
+table{
+    margin-left: 20%;
+}
+#cont{
+    display: flex;
+    justify-content: center;
 }
