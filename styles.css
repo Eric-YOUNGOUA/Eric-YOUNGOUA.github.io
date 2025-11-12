@@ -1,0 +1,302 @@
+/* Variables de couleur et polices */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #343a40;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --text-color: #333;
+    --font-family: 'Arial', sans-serif;
+}
+
+/* Réinitialisation et styles globaux */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.bg-light {
+    background-color: var(--light-color);
+}
+.bg-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.bg-dark a {
+    color: var(--primary-color);
+}
+
+h1, h2, h3 {
+    margin-bottom: 1.2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+p.lead {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar .nav-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-menu li {
+    margin-left: 1.5rem;
+}
+
+.navbar .nav-menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-menu a:hover {
+    color: var(--primary-color);
+}
+
+/* Section Héros */
+#hero {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+}
+
+#hero .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--light-color);
+}
+
+/* Projets */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 1.5rem;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Parcours (Timeline) */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::before { /* Ligne verticale */
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--primary-color);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    padding: 1rem 2rem;
+    position: relative;
+    width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+    padding-right: 4rem;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+    padding-left: 4rem;
+}
+
+.timeline-date {
+    position: absolute;
+    top: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.timeline-item:nth-child(odd) .timeline-date {
+    right: -100px; /* Ajustement pour l'espace */
+}
+.timeline-item:nth-child(even) .timeline-date {
+    left: -100px; /* Ajustement pour l'espace */
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Compétences */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.skills-grid h3 {
+    color: var(--primary-color);
+}
+
+.skills-grid ul {
+    list-style: none;
+}
+
+.skills-grid li {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.contact-info a, .contact-info p {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.contact-info i {
+    margin-right: 0.5rem;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+/* === RESPONSIVITÉ (Mobile) === */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+    
+    /* Menu burger (simplifié pour mobile) */
+    .navbar .nav-menu {
+        /* (Pour un vrai menu burger, plus de JS est nécessaire) */
+        /* Pour cet exemple, nous allons les empiler */
+        display: none; /* Cachez le menu par défaut, ajoutez un bouton burger avec JS si désiré */
+    }
+
+    /* Timeline verticale */
+    .timeline::before {
+        left: 30px;
+    }
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+        padding-left: 5rem;
+        padding-right: 1rem;
+    }
+    .timeline-date {
+        position: relative;
+        top: 0;
+        left: 0 !important;
+        right: 0 !important;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Compétences */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
