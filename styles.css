@@ -162,6 +162,11 @@ p.lead {
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
 
+.card ul {
+    padding-left: 1rem;
+    font-size: small;
+}
+
 /* Parcours (Timeline) */
 .timeline {
     position: relative;
@@ -283,7 +288,7 @@ p.lead {
     .timeline-item {
         width: 100%;
         left: 0 !important;
-        padding-left: 5rem;
+        padding-left: 4rem;
         padding-right: 1rem;
     }
     .timeline-date {
