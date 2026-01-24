@@ -54,16 +54,24 @@
                 <h2>Projets</h2>
                 <div class="projects-grid">
                     <div class="card">
-                        <h3>Amélioration de l’infrastructure réseau d’une école </h3>
-                        <p>Dans ce projet, nous devions améliorer la structure réseau d'une école. Au cours de celui-ci, nous avons:</p>
-                        <ul>
-                            <li>Séparé le réseau des différentes entreprises en configurant des Vlan pour séparer les membres de l'administration des étudiants et les étudiants des diverses filières.</li>
-                            <li>Configuré des pare-feu afin de surveiller le traffic, le protéger contre les ménaces et bloquer l'accès à certaines ressources pour des postes bien définis.</li>
-                            <li>Remplacé les équipements obsolètes par des équipements plus récents et plus performants, notamment les téléphones IP.</li>
-                        </ul>
+                        <h3>Transformation d'un cluster K3s standart en infrastructure zéro trust.</h3>
+                        <p>Pour celà, nous avons commencé par le durcissement de l'OS(filtrage du réseau via cystcl, désactivation de l'USB et sandboxing avec Firejail et AppArmor), le renforcement de la visibilité(centralisation des logs via rsyslog, surveillance résseau par SURICATA) et vérouillage de l'accès au système avec une MFA pour ssh et le déploiement de Keycloak.</p>
                     </div>
                     <div class="card">
-                        <h3>Conception d'une application paermettant de Calculer l'évolution de la surface de la Banquise </h3>
+                        <h3>Test de site Web selon les principes de l'OWASP top10</h3>
+                        <p>Dans ce projet, j'ai du éffectuer des test d'intrusions sur Juice Shop et sur Web Security Academy. Dans ce contexte nous avons utilisé l'outil Burpsuite afin d'intercepter le trafic, d'éffectuer du cassage de mot de passe, des injections SQL et du Broken access control.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Amélioration de l’infrastructure réseau d’une école </h3>
+                        <p>Dans ce projet, nous devions améliorer la structure réseau d'une école. Au cours de celui-ci, nous avons:<br>Séparé les différents services de l'école en configurant des Vlans.<br>Configuré des pare-feu afin de surveiller le traffic, le protéger contre les ménaces et bloquer l'accès à certaines ressources pour des postes bien définis.<br>Remplacé les équipements obsolètes par des équipements plus récents et plus performants, notamment les téléphones IP.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Développement d'un site d'E-Learning sécurisé </h3>
+                        <p>L'application a été conçu avec SpringBoot pour le backend, Angularpour le frontend et une base de donnée MariaDB en respectant toutes les normes de sécurité demandées par l'OWASP top 10.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Conception d'une application permettant de Calculer l'évolution de la surface de la Banquise </h3>
                         <p>Grâce à Matlab, j'ai mis sur pied une application qui permet d'évaluer l'évolution de la surcafe de la banquise grâce des techniques comme l'étude d'histogramme, le seuuillage, la fermeture, l'extraction de contour et  transformer tout ça en un film.</p>
                     </div>
                     <div class="card">
@@ -148,9 +156,12 @@
                         <h3>Techniques </h3>
                         <ul>
                             <li>Administration réseau</li>
+                            <li>Ethical Hacking</li>
                             <li>Administration systèmes Windows et Linux</li>
-                            <li>Gestion de base de données</li>
-                            <li>Versioning (GitHub, Git Bash)</li>
+                            <li>Mise en place de structures zero trust</li>
+                            <li>Mise en place et gestion de base de données</li>
+                            <li>Versionnage de fichier avec Git</li>
+                            <li>Sécurisation de sites web</li>
                             <li>Développement full stack</li>
                             <li>Traitement de l'image avec Matlab</li>
                             <li>Developpement Android</li>
@@ -160,7 +171,6 @@
                     <div>
                         <h3>Transversales </h3>
                         <ul>
-                            <li>Utilisation de la suite office</li>
                             <li>Gestion des projets agiles</li>
                             <li>Utilisation de la méthode SCRUM</li>
                             <li>Modélisation (UML)</li>
@@ -205,6 +215,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
