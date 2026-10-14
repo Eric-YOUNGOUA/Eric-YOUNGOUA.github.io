@@ -4,7 +4,7 @@ export const personalInfo = {
   title: "Élève Ingénieur Informatique, Réseaux & Cybersécurité",
   degree: "Cycle Ingénieur Bac+5 (Niveau 6)",
   school: "ESAIP – École Supérieure d'Ingénieurs (Angers)",
-  status: "Recherche d'un contrat d'alternance de 12 mois pour Septembre 2026",
+  status: "Recherche d'un contrat d'alternance de 12 mois pour Octobre 2026",
   rhythm: "Rythme 2 semaines école / 2 semaines entreprise",
   location: "Angers (49) — Mobile toute France (Île-de-France, Nantes, Bordeaux, Lyon)",
   email: "ericyoungoua@gmail.com",
@@ -76,7 +76,7 @@ export const projectsList = [
     id: "tourisme-drc",
     title: "Application Mobile Tourisme DRC",
     category: "dev",
-    context: "Stage Développeur Full Stack • Gomatech (2026)",
+    context: "Stage Développeur Full Stack • Gomatech (Juin – Août 2026)",
     featured: true,
     summary: "Application mobile complète de promotion touristique pour la RD Congo intégrant réservation d'hôtels, guides touristiques, paiement sécurisé et recommandations par IA.",
     description: "Conception architecturale et réalisation intégrale du backend et du frontend mobile. Schématisation de la base PostgreSQL, mise en œuvre d'APIs REST sous FastAPI et interface intuitive React Native.",
@@ -327,18 +327,36 @@ export const projectsList = [
   },
   {
     id: "ripes-riscv",
-    title: "Programmation Bas Niveau & Simulateur RISC-V",
+    title: "Programmation Bas Niveau en Assembleur (RISC-V)",
     category: "ai",
-    context: "Architecture des Ordinateurs • ESAIP",
+    context: "Architecture & Assembleur • UCLM Albacete & ESAIP",
     featured: false,
-    summary: "Étude et programmation d'instructions machine sur l'architecture processeur RISC-V avec le simulateur Ripes.",
-    description: "Analyse pas à pas de l'exécution dans le pipeline d'un processeur, manipulation directe des registres et de la pile mémoire.",
+    summary: "Apprentissage approfondi du codage en assembleur et de l'architecture processeur lors de la mobilité Erasmus à l'Universidad de Castilla-La Mancha.",
+    description: "Analyse fine de l'exécution dans le pipeline d'un processeur, manipulation directe des registres, de la mémoire et écriture de routines bas niveau.",
     highlights: [
-      "Écriture de sous-routines et manipulation de registres en assembleur",
-      "Observation des aléas de données (hazards), des prédictions de branchement et des cycles d'horloge"
+      "Écriture de sous-routines optimisées et manipulation des registres en assembleur",
+      "Étude des instructions machines, de la pile d'exécution et de la gestion de la mémoire",
+      "Observation des aléas de pipeline et optimisation du temps d'exécution cycle par cycle"
     ],
-    tags: ["Assembleur", "RISC-V", "Ripes", "Architecture Processeur"],
+    tags: ["Assembleur", "RISC-V", "Bas Niveau", "Architecture Processeur", "UCLM Albacete"],
     icon: "Cpu"
+  },
+  {
+    id: "conception-si-uclm",
+    title: "Conception de Systèmes d'Information & Réseaux Résilients",
+    category: "network",
+    context: "Ingénierie des SI • Universidad de Castilla-La Mancha (2026)",
+    featured: true,
+    summary: "Conception architecturale de systèmes d'information d'entreprise et mise en place d'infrastructures réseaux hautement redondantes et résilientes.",
+    description: "Projet académique d'envergure mené en Espagne axé sur l'approche professionnelle de l'ingénieur ('apprendre à penser pro') : alignement stratégique du SI, résilience et tolérance aux pannes.",
+    highlights: [
+      "Conception globale de systèmes d'information : modélisation des processus, urbanisation du SI et sécurité",
+      "Mise en place de réseaux redondants et résilients avec protocoles de haute disponibilité (FHRP, LACP, Spanning Tree)",
+      "Tests de continuité d'activité et simulation de basculement sans interruption de service",
+      "Adoption d'une posture professionnelle rigoureuse orientée gouvernance et exigences métier"
+    ],
+    tags: ["Conception SI", "Réseaux Résilients", "Haute Disponibilité", "FHRP", "UCLM Albacete", "Urbanisation SI"],
+    icon: "Network"
   },
   {
     id: "serveur-dhcp-debian",
@@ -392,13 +410,23 @@ export const projectsList = [
 export const experiencesAndEducation = [
   {
     id: "gomatech",
-    period: "Depuis Juin 2026",
-    role: "Développeur Full Stack Web / Mobile (Stage 4)",
+    period: "Juin 2026 – Août 2026",
+    role: "Développeur Full Stack Web / Mobile (Stage)",
     institution: "Gomatech",
     location: "France",
     type: "work",
-    description: "Développement complet de l'application de tourisme en RD Congo : conception de la base de données PostgreSQL, développement d'APIs REST sécurisées en FastAPI, création de l'application mobile React Native, intégration de modèles LLM locaux (Ollama/Hermes), et monitoring en temps réel avec Grafana.",
+    description: "Développement complet et finalisé de l'application mobile touristique en RD Congo : conception de la base de données PostgreSQL, développement d'APIs REST sous FastAPI, réalisation du frontend React Native, intégration de LLMs locaux (Ollama/Hermes), et monitoring en temps réel avec Grafana.",
     skills: ["FastAPI", "React Native", "PostgreSQL", "Grafana", "Ollama LLM", "Docker"]
+  },
+  {
+    id: "uclm-erasmus",
+    period: "Février 2026 – Juin 2026",
+    role: "Mobilité Internationale Erasmus+ (Informatique & Réseaux)",
+    institution: "Universidad de Castilla-La Mancha (UCLM)",
+    location: "Albacete, Espagne",
+    type: "education",
+    description: "Semestre académique en Espagne : mise en place et configuration de réseaux redondants et résilients, codage en assembleur, et conception globale de systèmes d'information en adoptant une méthodologie professionnelle ('apprendre à penser pro'). Immersion linguistique en espagnol.",
+    skills: ["Réseaux Résilients", "Assembleur", "Conception SI", "Haute Disponibilité", "Erasmus+", "Espagnol"]
   },
   {
     id: "esaip",
@@ -557,7 +585,7 @@ export const technicalSkills = [
 export const languages = [
   { name: "Français", level: "Langue maternelle / Natif", stars: 5 },
   { name: "Anglais", level: "B2 – Professionnel et technique (Stage et Erasmus)", stars: 4 },
-  { name: "Espagnol", level: "A1 – Notions de base", stars: 2 }
+  { name: "Espagnol", level: "B1/A2 – Pratique en immersion (Erasmus UCLM Albacete, 5 mois)", stars: 3 }
 ];
 
 export const interests = [

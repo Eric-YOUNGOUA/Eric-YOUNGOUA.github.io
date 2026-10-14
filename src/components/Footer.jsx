@@ -69,7 +69,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Marcel Eric YOUNGOUA TCHONGOUE. Conçu avec React & Tailwind CSS.
           </p>
           <p className="font-mono text-slate-500">
-            Disponibilité : Septembre 2026 • Contrat d'apprentissage 12 mois
+            Disponibilité : Octobre 2026 • Contrat d'apprentissage 12 mois
           </p>
         </div>
 

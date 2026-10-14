@@ -20,7 +20,7 @@ export default function Hero() {
             {/* Availability Badge */}
             <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-emerald-500/40 text-emerald-300 text-xs sm:text-sm font-medium shadow-sm shadow-emerald-500/10">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
-              <span>Recherche Alternance 12 mois • Rentrée Septembre 2026</span>
+              <span>Recherche Alternance 12 mois • Rentrée Octobre 2026</span>
             </div>
 
             {/* Main Title */}

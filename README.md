@@ -1,7 +1,7 @@
 # 🛡️ Portfolio Officiel — Marcel Eric YOUNGOUA TCHONGOUE
 
 > **Élève Ingénieur en Informatique et Réseaux à l'ESAIP Angers (Bac+5 / Titre Niveau 6)**  
-> **Majeure Réseaux & Cybersécurité** • À la recherche d'une alternance de 12 mois pour **Septembre 2026** (Rythme 2s école / 2s entreprise).
+> **Majeure Réseaux & Cybersécurité** • À la recherche d'une alternance de 12 mois pour **Octobre 2026** (Rythme 2s école / 2s entreprise).
 
 🌐 **Site en ligne** : [https://eric-youngoua.github.io](https://eric-youngoua.github.io)
 

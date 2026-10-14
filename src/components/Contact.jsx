@@ -44,7 +44,7 @@ export default function Contact() {
             Prêt à Contribuer à Vos <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-300">Projets Critiques</span>
           </h2>
           <p className="text-base sm:text-lg text-slate-300">
-            Je recherche une alternance de 12 mois dès <strong>Septembre 2026</strong> (rythme 2 semaines école / 2 semaines entreprise). N'hésitez pas à me contacter pour échanger ou convenir d'un entretien.
+            Je recherche une alternance de 12 mois dès <strong>Octobre 2026</strong> (rythme 2 semaines école / 2 semaines entreprise). N'hésitez pas à me contacter pour échanger ou convenir d'un entretien.
           </p>
         </div>
 

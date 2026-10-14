@@ -11,7 +11,7 @@ export default function TerminalPreview() {
         { label: "Nom", val: "Marcel Eric YOUNGOUA TCHONGOUE", color: "text-white" },
         { label: "École", val: "ESAIP Angers (Cycle Ingénieur Bac+5)", color: "text-cyan-300" },
         { label: "Majeure", val: "Réseaux & Cybersécurité", color: "text-emerald-400" },
-        { label: "Objectif", val: "Alternance 12 mois (Sept. 2026) • Rythme 2s/2s", color: "text-amber-300" },
+        { label: "Objectif", val: "Alternance 12 mois (Oct. 2026) • Rythme 2s/2s", color: "text-amber-300" },
         { label: "Mobilité", val: "Angers, Île-de-France, Nantes, France entière", color: "text-slate-300" }
       ]
     },
